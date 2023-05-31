@@ -1,0 +1,714 @@
+/* When width is <767px */
+@media screen and (max-width: 767px) {
+  .services_main_img {
+    /* width: 70% !important; */
+  }
+
+  .service_main {
+    padding: 50px;
+  }
+
+  .service_box {
+    padding: 50px;
+    background: #fff !important;
+  }
+
+  .service_category_heading {
+    text-align: center !important;
+    letter-spacing: 0px !important;
+  }
+
+  .services_samples img {
+    width: 48%;
+  }
+
+  .service_category_heading {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  /* CURSOR DOT - Mobile start */
+
+  .cursor-dot-outline {
+    display: none;
+  }
+
+  /* CURSOR DOT - Mobile end */
+  .side_header {
+    display: none !important;
+  }
+
+  .mobile_padding {
+    padding: 20px 30px;
+  }
+
+  .hero_section {
+    min-height: 100vh;
+  }
+
+  .adlance_sections_container {
+    width: 100%;
+    z-index: 0;
+  }
+
+  .a_dot_logo {
+    width: 200px;
+    padding-top: 50px;
+  }
+
+  #services_section {
+    display: none;
+  }
+
+  .hero_heading {
+    min-width: 100px;
+    font-size: 45px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .hero_adlance_logo_container {
+    margin: 0;
+  }
+
+  .hero_content_container {
+    margin-left: 0;
+  }
+
+  .pp-scrollable::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .adlance_logo_container,
+  .hero_adlance_logo_container {
+    display: none !important;
+  }
+
+  .hero_btns_container {
+    justify-content: space-evenly;
+  }
+
+  .mobile_adlance_dot_logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_main_container {
+    flex-direction: column;
+  }
+
+  /* === OUR CLIENTS SECTION- DESKTOP STYLE === */
+  .client_slide {
+    transform: scale(0.93) !important;
+  }
+
+  .clients_slider_container .swiper-slide-active {
+    /* transform: scale(1.2); */
+  }
+
+  /* === OUR CLIENTS SECTION- MOBILE STYLE === */
+  .swiper {
+    width: 100%;
+    min-height: 397px;
+  }
+
+  .adlance_mobile_container {
+    display: block;
+  }
+
+  .mobile_descrp_txt {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .mobile_heading {
+    text-align: center;
+    letter-spacing: 13px;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+    transition: 1s all;
+  }
+
+  .mobile_heading:hover {
+    letter-spacing: 3px;
+    transition: 1s all;
+  }
+
+  .adlance_heading {
+    /* display: none; */
+    letter-spacing: 15px;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .our_clients_heading_mobile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .our_clients_descrp {
+    width: 100%;
+  }
+
+  .swiper-pagination {
+    padding-bottom: 30px;
+  }
+
+  .custom_pagination {
+    /* max-width: 50%; */
+  }
+
+  .left_arrow,
+  .right_arrow {
+    display: none !important;
+  }
+
+  /* === SERVICES SECTION - MOBILE START === */
+  .services_dropdown {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 50px;
+  }
+
+  .mobile_service_section {
+    /* min-height: 450px; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .mobile_service_title {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px;
+    border-top: 2px solid var(--adlance_gray);
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .mobileService_contentContainer {
+    padding: 15px;
+    display: none;
+    text-align: center;
+  }
+
+  .mobileService_contentContainer.active {
+    display: block;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .mobileService_activeTitle {
+    background: var(--adlance_primary_clr);
+  }
+
+  .mobileService_contentContainer .service_title {
+    font-size: 30px;
+  }
+
+  .mobileService_contentContainer img {
+    width: 90%;
+  }
+
+  /* === SERVICES SECTION - MOBILE END === */
+
+  /* === Mobile NAV Menu === START*/
+
+  .mobile_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    min-height: 70px;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 555;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
+  }
+
+  .nav_border {
+    margin-top: 10px;
+    /* padding-top: 15px; */
+    height: 2px;
+    background: var(--adlance_gray);
+    width: 100%;
+    /* border-bottom: 2px solid var(--adlance_gray); */
+  }
+
+  .nav_border::before {
+  }
+
+  .nav_filled_border {
+    width: 60px;
+    height: 100%;
+    background-color: var(--adlance_primary_clr);
+  }
+
+  #nav_container {
+    width: 100%;
+    height: 0px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* padding-left: 10px; */
+    /* padding-bottom: 20px; */
+    background-color: #fff;
+    /* transform: translateY(-200px); */
+    text-align: center;
+    /* margin-top: -350px; */
+    top: -400px;
+    display: block;
+    position: sticky;
+    z-index: 554;
+    font-size: 16px;
+    z-index: 1;
+  }
+
+  #nav_container > *:not(:last-child) {
+    border-bottom: 0.3px solid rgba(128, 128, 128, 0.281);
+  }
+
+  #nav_container li {
+    padding: 15px 0px;
+  }
+
+  .hide_nav_container {
+    z-index: 0 !important;
+  }
+
+  /* === FEATURED COMPAIGNS SECTION - Mobile === */
+
+  .mobile_featured_campaigns_container {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 80vh; */
+    min-height: auto;
+    /* border: 2px solid red; */
+  }
+  .desktop_featured_campaigns_container {
+    display: none;
+  }
+
+  .mobile_featured_campaigns_slider {
+    width: 60%;
+    min-height: 40vh;
+    margin: 0 auto;
+    margin-bottom: -100px;
+    z-index: 5;
+    position: relative;
+  }
+
+  .mobile_featured_campaigns_slider .swiper-slide {
+    border-radius: 8px;
+    /* width: 300px !important; */
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    filter: blur(1px);
+    /* opacity: 0.8; */
+  }
+
+  .mobile_featured_campaigns_slider .swiper-slide .entity-img {
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+    height: 280px;
+    /* transition: 1.5s; */
+  }
+
+  .mobile_featured_campaigns_slider .swiper-slide-active {
+    filter: blur(0px) !important;
+    transition: 1.5s;
+    opacity: 1;
+    /* width: 265px !important; */
+    /* scale: 1.2 !important; */
+
+    /* width: 250px !important; */
+  }
+
+  .featured_yellow_strip {
+    width: 100%;
+    height: 250px;
+    background: var(--adlance_primary_clr);
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .next_btn_mobile_fc,
+  .pre_btn_mobile_fc {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background: var(--adlance_secondary_clr);
+    margin: 0px 0px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .featured_yellow_strip .swiper-button-disabled {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+  }
+
+  /* === STORIES SLIDER SECTION- MOBILE === */
+  .adlance_stories_slider_container {
+    width: 100%;
+    background: var(--adlance_gray);
+  }
+
+  .stories_section {
+    display: none;
+  }
+
+  .mobile_stories_slider {
+    display: flex;
+    width: 100%;
+    /* min-height: 400px; */
+    min-height: 360px;
+    margin-bottom: 17px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    /* margin-top: -30px; */
+  }
+
+  .mobile_stories_slide {
+    width: 200px;
+    /* height: ; */
+    border-radius: 8px;
+  }
+
+  .mobile_stories_slide img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  /* MOBILE FOOTER STYLES */
+  .adlance_footer .desktop_footer {
+    display: none;
+  }
+
+  .adlance_footer .mobile_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .mobile_footer_heading {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    line-height: 35px;
+  }
+
+  .adlance_mobile_input {
+    padding: 15px;
+    border-radius: 50px;
+  }
+
+  .adlance_mobile_input.mobile_email_input {
+    background: #ddd;
+  }
+
+  adlance_mobile_input::placeholder {
+    text-align: center;
+  }
+
+  .adlance_mobile_input:focus {
+    border: none !important;
+    box-shadow: none;
+  }
+
+  .mobile_footer_links {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .mobile_footer_links li {
+    padding: 10px 8px 0px 7px;
+    list-style: none;
+  }
+
+  .mobile_footer_links li a {
+    text-decoration: none;
+    color: var(--adlance_secondary_clr);
+  }
+
+  .mobile_footer .footer-social {
+    padding: 10px;
+  }
+
+  /* === STORIES MODAL/POPUP - MOBILE === */
+  .md-content {
+    padding: 30px;
+  }
+
+  .adlance_story_thumbnail {
+    height: 100%;
+    margin-top: 10px;
+  }
+
+  .modal_content {
+    height: 450px !important;
+  }
+
+  .adlance_modal {
+    width: 95% !important;
+  }
+
+  .modal_content_container {
+    /* padding-left: 0; */
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .modal_content_container .col-md-3 {
+    border: 0;
+    padding: 0;
+  }
+
+  .modal_content_container h2 {
+    font-size: 35px;
+  }
+
+  .modal_content_container .adlance_post_year {
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+
+  /* === Contact US Page - MOBILE === */
+  .contact_info_description {
+    width: 90% !important;
+  }
+
+  .adlance_contact_info_desktop a,
+  .adlance_address a {
+    margin: 5px 0px;
+    padding: 0;
+  }
+
+  .adlance_contact_info_desktop .adlance_contact_btn_circle {
+    order: 4;
+  }
+
+  .contact_us_page_header {
+    min-height: 35vh;
+  }
+
+  .adlance_contact_form_section {
+    padding: 0px 30px;
+  }
+
+  .about_section,
+  .teams_section {
+    padding: 0;
+  }
+
+  .our_story_section,
+  .adlance_story_section {
+    padding: 30px;
+  }
+
+  .our_story_txt {
+    font-size: 16px;
+  }
+
+  testimonial_box {
+    padding: 10px;
+  }
+}
+
+/* Hamburger Animation Effects */
+.iconContainer {
+  /* width: 35px;
+    height: 35px;
+    border: 1px solid var(--adlance_secondary_clr);
+    border-radius: 4px; */
+  margin-top: 20px;
+}
+
+.hamburger {
+  /* padding: 10px 10px; */
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+  /* border: 2px solid red; */
+}
+
+.hamburger:hover {
+  opacity: 0.7;
+}
+
+.hamburger.is-active:hover {
+  opacity: 0.7;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: #000;
+}
+
+.hamburger-box {
+  width: 35px;
+  /* height: 15px; */
+  display: inline-block;
+  position: relative;
+  /* background: #000; */
+  /* margin-top: 10px; */
+}
+
+.hamburger-inner {
+  display: block;
+  /* top: 50%; */
+  /* margin-top: -5px; */
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  width: 35px;
+  height: 2.5px;
+  background-color: #000;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+
+.hamburger-inner::before,
+.hamburger-inner::after {
+  content: "";
+  display: block;
+}
+
+.hamburger-inner::before {
+  top: -10px;
+  /* background: red; */
+}
+
+.hamburger-inner::after {
+  bottom: -10px;
+  /* background: green; */
+  /* position: absolute; */
+}
+
+/*
+   * Collapse
+   */
+.hamburger--collapse .hamburger-inner {
+  top: auto;
+  bottom: 0;
+  transition-duration: 0.13s;
+  transition-delay: 0.13s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse .hamburger-inner::after {
+  top: -20px;
+  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    opacity 0.1s linear;
+}
+
+.hamburger--collapse .hamburger-inner::before {
+  transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse.is-active .hamburger-inner {
+  transform: translate3d(0, -10px, 0) rotate(-45deg);
+  transition-delay: 0.22s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--collapse.is-active .hamburger-inner::after {
+  top: 0;
+  opacity: 0;
+  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    opacity 0.1s 0.22s linear;
+}
+
+.hamburger--collapse.is-active .hamburger-inner::before {
+  top: 0;
+  transform: rotate(-90deg);
+  transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+   * Collapse Reverse
+   */
+.hamburger--collapse-r .hamburger-inner {
+  top: auto;
+  bottom: 0;
+  transition-duration: 0.13s;
+  transition-delay: 0.13s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse-r .hamburger-inner::after {
+  top: -20px;
+  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    opacity 0.1s linear;
+}
+
+.hamburger--collapse-r .hamburger-inner::before {
+  transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1),
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner {
+  transform: translate3d(0, -10px, 0) rotate(45deg);
+  transition-delay: 0.22s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner::after {
+  top: 0;
+  opacity: 0;
+  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    opacity 0.1s 0.22s linear;
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner::before {
+  top: 0;
+  transform: rotate(90deg);
+  transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+    transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
