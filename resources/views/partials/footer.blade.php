@@ -29,14 +29,14 @@
         </div>
         <div class="container-fluid text-center py-5">
             <div data-aos="zoom-in" class="col-12 text-center">
-                <a href="/about.html" class="d-inline mx-md-3 col-sm-3 footer_link">About </a>
-                <a href="/stories.html" class="d-inline mx-md-3 col-sm-3  footer_link">Stories </a>
-                <a href="/services.html" class="d-inline  mx-md-3 col-sm-3  footer_link">Services </a>
-                <a href="/support-us.html" class="d-inline mx-md-3 footer_link">Support us </a>
-                <a href="/contact-us.html" class="d-inline mx-md-3  footer_link">Contact</a>
-                <a href="/our-teams.html" class="d-inline mx-md-3 footer_link">Work with us</a>
-                <a href="/terms-and-conditions.html" class="d-inline mx-md-3  footer_link">T&Cs</a>
-                <a href="/privacy-policy.html" class="d-inline mx-md-3  footer_link">Privacy Policy</a>
+                <a href="/about-us" class="d-inline mx-md-3 col-sm-3 footer_link">About </a>
+                <a href="/stories" class="d-inline mx-md-3 col-sm-3  footer_link">Stories </a>
+                <a href="/services" class="d-inline  mx-md-3 col-sm-3  footer_link">Services </a>
+                <a href="/support-us" class="d-inline mx-md-3 footer_link">Support us </a>
+                <a href="/contact-us" class="d-inline mx-md-3  footer_link">Contact</a>
+                <a href="/career" class="d-inline mx-md-3 footer_link">Work with us</a>
+                <a href="/terms-and-conditions" class="d-inline mx-md-3  footer_link">T&Cs</a>
+                <a href="/privacy-policy" class="d-inline mx-md-3  footer_link">Privacy Policy</a>
             </div>
 
             <div class="col-12 text-center mb-5">
@@ -69,14 +69,14 @@
             <button type="submit" class="btn btn-primary w-100 adlance_primary_btn">Subscribe </button>
         </form>
         <ul class="mobile_footer_links d-flex flex-wrap justify-content-center">
-            <li><a href="/about.html">About </a></li>
-            <li><a href="/stories.html">Stories</a></li>
-            <li><a href="/services.html">Service</a></li>
-            <li><a href="/support-us.html">Support Us</a></li>
-            <li><a href="/contact-us.html">Contact</a></li>
-            <li><a href="/our-teams.html">Work with us</a></li>
-            <li><a href="/terms-and-conditions.html">T&Cs</a></li>
-            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="/about-us">About </a></li>
+            <li><a href="/stories">Stories</a></li>
+            <li><a href="/services">Service</a></li>
+            <li><a href="/support-us">Support Us</a></li>
+            <li><a href="/contact-us">Contact</a></li>
+            <li><a href="/career">Work with us</a></li>
+            <li><a href="/terms-and-conditions">T&Cs</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
         </ul>
         <div class="w-100 border-bottom my-4"></div>
         <div class="text-center">

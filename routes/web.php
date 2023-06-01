@@ -40,3 +40,15 @@ Route::get('/stories', function () {
 Route::get('/support-us', function () {
     return view('support-us');
 });
+
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});
+
+Route::get('/terms-and-conditions', function () {
+    return view('terms-and-conditions');
+});
+
+Route::get('/career', function () {
+    return view('career');
+});
