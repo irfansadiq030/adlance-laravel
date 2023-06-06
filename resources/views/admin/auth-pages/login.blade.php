@@ -47,7 +47,7 @@
             <button class="btn btn-lg btn-primary btn-block">Login in</button>
         </div>
     </form><!-- form -->
-    <div class="form-note-s2 pt-4"> Register an Admin ? <a href="{{ route('admin.register') }}"><strong>Create an Account</strong></a>
+    <!-- <div class="form-note-s2 pt-4"> Register an Admin ? <a href="{{ route('admin.register') }}"><strong>Create an Account</strong></a>
     </div>
     <div class="text-center pt-4 pb-3">
         <h6 class="overline-title overline-title-sap"><span>OR</span></h6>
@@ -55,7 +55,7 @@
     <ul class="nav justify-center gx-8">
         <li class="nav-item"><a class="nav-link" href="#">Facebook</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Google</a></li>
-    </ul>
+    </ul> -->
 </div><!-- .nk-block -->
 
 @endsection

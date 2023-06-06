@@ -5,8 +5,8 @@
             </div>
             <div class="nk-footer-links">
                 <ul class="nav nav-sm">
-                    <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/terms-and-conditions">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/privacy-policy">Privacy</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
                 </ul>
             </div>

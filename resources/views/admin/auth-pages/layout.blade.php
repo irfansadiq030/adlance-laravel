@@ -33,10 +33,10 @@
                                 <div class="nk-block-between">
                                     <ul class="nav nav-sm">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Terms & Condition</a>
+                                            <a class="nav-link" href="/terms-and-conditions">Terms & Condition</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Privacy Policy</a>
+                                            <a class="nav-link" href="/privacy-policy">Privacy Policy</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Help</a>
@@ -75,7 +75,7 @@
                                     </ul><!-- nav -->
                                 </div>
                                 <div class="mt-3">
-                                    <p>&copy; 2019 DashLite. All Rights Reserved.</p>
+                                    <p>&copy; 2023 Adlance. All Rights Reserved.</p>
                                 </div>
                             </div><!-- nk-block -->
                         </div><!-- nk-split-content -->
