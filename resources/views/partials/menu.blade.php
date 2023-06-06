@@ -35,8 +35,8 @@
 </nav>
 <ul id="nav_container">
     <li class="mobile_nav_links"><a href="/">Home</a></li>
-    <li class="mobile_nav_links"> <a href="/about.html">About</a></li>
-    <li class="mobile_nav_links"><a href="/services.html">Services</a></li>
-    <li class="mobile_nav_links"><a href="/our-teams.html">Careers</a></li>
-    <li class="mobile_nav_links"><a href="/contact-us.html">Contact</a></li>
+    <li class="mobile_nav_links"> <a href="/about-us">About</a></li>
+    <li class="mobile_nav_links"><a href="/services">Services</a></li>
+    <li class="mobile_nav_links"><a href="/career">Careers</a></li>
+    <li class="mobile_nav_links"><a href="/contact-us">Contact</a></li>
 </ul>
