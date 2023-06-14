@@ -89,7 +89,7 @@
 
     <div id="pagepiling" class="main">
         @if(Request::is('/'))
-        @yield('video_section')
+            @yield('video_section')
         @endif
 
         <div class="section pp-scrollable w-100 h-100">

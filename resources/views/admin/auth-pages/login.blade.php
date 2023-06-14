@@ -13,9 +13,9 @@
     <div class="nk-block-head">
         <div class="nk-block-head-content">
             <h5 class="nk-block-title">Login</h5>
-            <div class="nk-block-des">
+            <!-- <div class="nk-block-des">
                 <p>Access the DashLite panel using your email and passcode.</p>
-            </div>
+            </div> -->
             @if(Session::has('msg'))
             <div class="alert alert-danger alert-icon alert-dismissible">
                 <em class="icon ni ni-alert-circle"></em>

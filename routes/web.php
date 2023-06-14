@@ -63,21 +63,23 @@ Route::get('/career', function () {
 |--------------------------------------------------------------------------
 */
 
-Route::prefix('admin')->group(function () {
-
-    Route::get('/login', [AdminController::class, 'index'])->name('login_form');
-    Route::post('admin.login', [AdminController::class, 'admin_login'])->name('admin.login');
-    Route::get('dashboard', [AdminController::class, 'admin_dashboard'])->name('admin.dashboard')->middleware('admin');
-    Route::get('logout', [AdminController::class, 'admin_logout'])->name('admin.logout');
-    Route::get('register', [AdminController::class, 'register'])->name('admin.register');
-    Route::post('register', [AdminController::class, 'admin_register'])->name('admin.register.create');
-});
+require __DIR__ . '/admin-routes.php';
 
 /*
 |--------------------------------------------------------------------------
 | Admin Routes End
 |--------------------------------------------------------------------------
 */
+
+// Sitemap URL
+Route::get('sitemap.xml', function () {
+    return response()->view('sitemap.sitemap')->header('Content-Type', 'application/xml');
+});
+
+Route::get('sitemap-pages.xml', function () {
+    return response()->view('sitemap.sitemap-pages')->header('Content-Type', 'application/xml');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
