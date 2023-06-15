@@ -1,0 +1,56 @@
+@extends('admin.layout.layout')
+
+@section('content')
+
+<div class="components-preview wide-md mx-auto">
+    <div class="nk-block-head nk-block-head-lg wide-sm">
+        <div class="nk-block-head-content">
+            <div class="nk-block-head-sub"><a class="back-to" href="view-profile"><em class="icon ni ni-arrow-left"></em><span>Components</span></a></div>
+            <h2 class="nk-block-title fw-normal">Edit Admin Profile</h2>
+            <div class="nk-block-des">
+                <p class="lead">Form is most esential part of your project. We styled out nicely so you can build your form so quickly.</p>
+            </div>
+        </div>
+    </div><!-- .nk-block -->
+    <div class="nk-block nk-block-lg">
+        <div class="nk-block-head">
+            <div class="nk-block-head-content">
+                <h4 class="title nk-block-title">Basic Form Style - S1</h4>
+                <div class="nk-block-des">
+                    <p>Below example helps you to build your own form nice way.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-gs">
+            <div class="col-lg-10">
+                <div class="card h-100">
+                    <div class="card-inner">
+                        <div class="card-head">
+                            <h5 class="card-title">Admin Info</h5>
+                        </div>
+                        <form action="#">
+                            <div class="form-group">
+                                <label class="form-label" for="full-name">Full Name</label>
+                                <div class="form-control-wrap">
+                                    <input type="text" class="form-control" id="full-name" value="{{ $admin_info['name'] }}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="email-address">Email address</label>
+                                <div class="form-control-wrap">
+                                    <input type="text" class="form-control" id="email-address" value="{{ $admin_info['email'] }}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-lg btn-primary">Save Informations</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- .nk-block -->
+
+</div>
+
+@endsection

@@ -13,4 +13,5 @@ Route::prefix('admin')->group(function () {
     Route::get('register', [AdminController::class, 'register'])->name('admin.register');
     Route::post('register', [AdminController::class, 'admin_register'])->name('admin.register.create');
     Route::get('view-profile', [AdminController::class, 'admin_profile'])->name('admin.view-profile');
+    Route::get('edit-profile', [AdminController::class, 'edit_profile'])->name('admin.edit-profile');
 });
