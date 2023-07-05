@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\admin\CategoryController;
+use App\Http\Controllers\admin\BlogController;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
@@ -28,7 +29,7 @@ Route::prefix('admin')->group(function () {
     Route::get('/categories/{id}/delete', [CategoryController::class, 'delete'])->name('delete-category');
 
     // Admin Blogs
-    Route::get('blogs', [AdminController::class, 'update_profile'])->name('admin.blogs');
+    Route::get('blogs', [BlogController::class, 'index'])->name('admin.blogs');
 
 });
 
