@@ -86,7 +86,7 @@
                     <div class="card-inner">
                         <div class="user-card">
                             <div class="user-avatar bg-primary">
-                                <span>{{ getInitials(Auth::guard('admin')->user()->name) }}</span>
+                                <span>IS</span>
                             </div>
                             <div class="user-info">
                                 <span class="lead-text">{{ Auth::guard('admin')->user()->name }}</span>

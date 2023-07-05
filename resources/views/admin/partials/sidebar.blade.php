@@ -23,15 +23,15 @@
                            </a>
                        </li><!-- .nk-menu-item -->
                        <li class="nk-menu-item">
-                           <a href="#" class="nk-menu-link">
-                               <span class="nk-menu-icon"><em class="icon ni ni-bag-fill"></em></span>
-                               <span class="nk-menu-text">Orders</span>
+                           <a href="{{ route('admin.blogs') }}" class="nk-menu-link">
+                               <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
+                               <span class="nk-menu-text">Blogs</span>
                            </a>
                        </li><!-- .nk-menu-item -->
                        <li class="nk-menu-item">
-                           <a href="#" class="nk-menu-link">
-                               <span class="nk-menu-icon"><em class="icon ni ni-package-fill"></em></span>
-                               <span class="nk-menu-text">Products</span>
+                           <a href="{{ route('admin.categories') }}" class="nk-menu-link">
+                               <span class="nk-menu-icon"><em class="icon ni ni-tag-fill"></em></span>
+                               <span class="nk-menu-text">Categories</span>
                            </a>
                        </li><!-- .nk-menu-item -->
                        <li class="nk-menu-item">

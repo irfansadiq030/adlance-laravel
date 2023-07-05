@@ -78,4 +78,19 @@ class AdminController extends Controller
         $admin_info = Auth::guard('admin')->user();
         return view('admin.edit-admin-profile',compact('admin_info'));
     }
+
+    // Admin Update Profile
+
+    public function update_profile(Request $request)
+    {
+        // dd($request->input());
+        $logged_in_admin_id = Auth::guard('admin')->user()->id;
+        
+        $admin= Admin::find($logged_in_admin_id);
+        $admin->name = $request->input('admin_name');
+        $admin->save();
+
+        return redirect()->route('admin.dashboard')->with('msg', 'Information updated Successfully');
+
+    }
 }

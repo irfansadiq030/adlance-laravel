@@ -14,6 +14,7 @@
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="{{ asset('admin_assets/css/dashlite.css') }}">
     <link id="skin-default" rel="stylesheet" href="{{ asset('admin_assets/css/theme.css') }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
 <body class="nk-body bg-lighter npc-general has-sidebar ">
@@ -33,7 +34,7 @@
                     <div class="container-fluid">
                         <div class="nk-content-inner">
                             <div class="nk-content-body">
-                               @yield('content')
+                                @yield('content')
                             </div>
                         </div>
                     </div>
@@ -52,6 +53,17 @@
     <script src="{{ asset('admin_assets/js/bundle.js') }}"></script>
     <script src="{{ asset('admin_assets/js/scripts.js') }}"></script>
     <script src="{{ asset('admin_assets/js/charts/chart-ecommerce.js') }}"></script>
+    <!-- <script src="{{ asset('admin_assets/js/charts/chart-ecommerce.js') }}"></script> -->
+    <!-- <script src="{{ asset('admin_assets/js/custom-script.js') }}"></script> -->
+
+    <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
+    @yield('custom-js')
 </body>
 
 </html>

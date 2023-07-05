@@ -28,17 +28,18 @@
                         <div class="card-head">
                             <h5 class="card-title">Admin Info</h5>
                         </div>
-                        <form action="#">
+                        <form action="{{ route('admin.update-profile') }}" method="POST">
+                            @csrf
                             <div class="form-group">
                                 <label class="form-label" for="full-name">Full Name</label>
                                 <div class="form-control-wrap">
-                                    <input type="text" class="form-control" id="full-name" value="{{ $admin_info['name'] }}">
+                                    <input name="admin_name" type="text" class="form-control" id="full-name" value="{{ $admin_info['name'] }}">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="email-address">Email address</label>
                                 <div class="form-control-wrap">
-                                    <input type="text" class="form-control" id="email-address" value="{{ $admin_info['email'] }}">
+                                    <input name="admin_email" type="text" class="form-control" id="email-address" value="{{ $admin_info['email'] }}">
                                 </div>
                             </div>
                             <div class="form-group">
